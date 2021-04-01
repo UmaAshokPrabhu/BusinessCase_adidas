@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-01T14:32:05Z" name="Suite" finished-at="2021-04-01T14:34:46Z" duration-ms="160278">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@5158b42f]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-04-01T14:32:05Z" name="adidas Demo Test" finished-at="2021-04-01T14:34:46Z" duration-ms="160278">
+      <class name="runner.RunCuke">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.RunCuke@5158b42f]" started-at="2021-04-01T14:32:05Z" name="setUpClass" finished-at="2021-04-01T14:32:06Z" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:runner.RunCuke@5158b42f]" started-at="2021-04-01T14:32:06Z" name="setup" finished-at="2021-04-01T14:32:06Z" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@5158b42f]" started-at="2021-04-01T14:32:06Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-04-01T14:33:54Z" duration-ms="107680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[To verify whether user is able to complete the checkout  process sucessfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@5158b42f]" started-at="2021-04-01T14:33:54Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-04-01T14:34:45Z" duration-ms="51845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[To verify whether user is able to complete  delivery process sucessfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.RunCuke@5158b42f]" started-at="2021-04-01T14:34:45Z" name="tearDownClass" finished-at="2021-04-01T14:34:46Z" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunCuke -->
+    </test> <!-- adidas Demo Test -->
+  </suite> <!-- Suite -->
+</testng-results>
